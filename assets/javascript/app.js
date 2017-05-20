@@ -46,6 +46,7 @@ var addEmployee = function() {
 	database.ref().on("child_added", function(snapshot){
 		// Need logic written
 		name = snapshot.val().name;
+		console.log(name);
 		role = snapshot.val().role;
 		startDate = snapshot.val().startDate;
 		monthsWorked = 0;
