@@ -1,0 +1,12 @@
+input {
+	margin-bottom: 15px;
+}
+
+input:last-child {
+	margin-bottom: 25px;
+}
+
+.jumbotron {
+	background-color: #000;
+	color: #FFF;
+}
